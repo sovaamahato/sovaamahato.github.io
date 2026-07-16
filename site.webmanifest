@@ -1,0 +1,10 @@
+{
+  "name": "Sova Kushwaha",
+  "short_name": "Sova Kushwaha",
+  "description": "Data analyst portfolio featuring Python, SQL, statistical analysis, ETL pipelines, dashboards, and business-focused insights.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb"
+}

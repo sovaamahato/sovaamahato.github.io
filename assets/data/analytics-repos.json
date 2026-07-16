@@ -1,0 +1,102 @@
+[
+  {
+    "name": "sales-insight-workflow",
+    "description": "End-to-end synthetic sales analytics workflow with validated data, SQL, KPIs, charts, tests, and business recommendations.",
+    "html_url": "https://github.com/sovaamahato/sales-insight-workflow",
+    "language": "Python",
+    "topics": ["data-analysis", "sql", "business-intelligence"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "ecommerce-transactions-eda",
+    "description": "Exploratory analysis of 6,000 synthetic ecommerce transactions with statistical testing, returns analysis, and revenue insights.",
+    "html_url": "https://github.com/sovaamahato/ecommerce-transactions-eda",
+    "language": "Python",
+    "topics": ["eda", "statistics", "ecommerce"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "purchase-behavior-analysis",
+    "description": "Customer purchase analytics with Python, SQLite, reusable SQL, KPI reporting, and RFM segmentation across 6,500 orders.",
+    "html_url": "https://github.com/sovaamahato/purchase-behavior-analysis",
+    "language": "Python",
+    "topics": ["rfm-analysis", "customer-segmentation", "sqlite"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "customer-churn-eda",
+    "description": "Retention-focused exploratory analysis of contract, tenure, usage, support demand, and revenue-at-risk signals.",
+    "html_url": "https://github.com/sovaamahato/customer-churn-eda",
+    "language": "Python",
+    "topics": ["churn-analysis", "retention", "statistics"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "field-service-operations-analytics",
+    "description": "Operational analytics warehouse and Streamlit dashboard for SLA, margin, utilization, repeat visits, and technician performance.",
+    "html_url": "https://github.com/sovaamahato/field-service-operations-analytics",
+    "language": "Python",
+    "topics": ["operations-analytics", "streamlit", "sqlite"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "student-performance-analytics",
+    "description": "Reproducible student-outcome EDA covering attendance, study habits, subject scores, subgroup comparisons, and correlations.",
+    "html_url": "https://github.com/sovaamahato/student-performance-analytics",
+    "language": "Jupyter Notebook",
+    "topics": ["education-analytics", "eda", "data-visualization"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "airbnb-bookings-analysis",
+    "description": "Responsible short-term rental pricing and availability analysis using 3,000 synthetic listings and tested cleaning logic.",
+    "html_url": "https://github.com/sovaamahato/airbnb-bookings-analysis",
+    "language": "Python",
+    "topics": ["rental-analytics", "pricing-analysis", "eda"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "music-track-insights",
+    "description": "Synthetic music catalog EDA with genre comparisons, feature correlations, trends, and careful non-causal interpretation.",
+    "html_url": "https://github.com/sovaamahato/music-track-insights",
+    "language": "Jupyter Notebook",
+    "topics": ["music-analytics", "correlation", "data-visualization"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "titanic-survival-eda",
+    "description": "Synthetic passenger-survival analysis with transparent missing-data treatment, chi-square tests, and grouped comparisons.",
+    "html_url": "https://github.com/sovaamahato/titanic-survival-eda",
+    "language": "Python",
+    "topics": ["statistical-analysis", "data-cleaning", "eda"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  },
+  {
+    "name": "retail-sales-pipeline",
+    "description": "Portable CSV-to-SQLite retail ETL pipeline with relational modeling, SQL analysis, and business-focused charts.",
+    "html_url": "https://github.com/sovaamahato/retail-sales-pipeline",
+    "language": "Python",
+    "topics": ["etl", "retail-analytics", "sql"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-17"
+  }
+]

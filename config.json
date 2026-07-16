@@ -1,0 +1,319 @@
+{
+  "features": {
+    "about": true,
+    "projects": true,
+    "experience": true,
+    "skills": true,
+    "github_projects": true
+  },
+  "site": {
+    "title": "Sova Kushwaha",
+    "description": "Data Analyst Portfolio",
+    "seo": {
+      "title": "Sova Kushwaha | Data Analyst Portfolio",
+      "description": "Data analyst portfolio featuring Python, SQL, statistical analysis, ETL pipelines, dashboards, and business-focused insights.",
+      "keywords": "Sova Kushwaha, data analyst, Python, SQL, pandas, SQLite, data visualization, exploratory data analysis, business intelligence, portfolio",
+      "author": "Sova Kushwaha",
+      "og_image": "https://sovaamahato.github.io/assets/profile/sova-kushwaha.png",
+      "og_image_alt": "Professional portrait of Sova Kushwaha",
+      "twitter_card": "summary_large_image",
+      "base_url": "https://sovaamahato.github.io"
+    }
+  },
+  "header": {
+    "greeting": "Sova Kushwaha",
+    "tagline": "Data Analyst | Python, SQL & Business Insights",
+    "profile_image": "assets/profile/sova-kushwaha.png"
+  },
+  "social_links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/sovaamahato",
+      "icon": "github",
+      "required": true
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sova-kushwaha-380a15265/",
+      "icon": "linkedin"
+    }
+  ],
+  "github_username": "sovaamahato",
+  "about": {
+    "paragraphs": [
+      "I am a BIT graduate and technology professional transitioning into data analytics, with a practical portfolio built around Python, SQL, statistical analysis, data visualization, and business storytelling. My work focuses on turning imperfect datasets into clear metrics, defensible insights, and recommendations that decision-makers can act on.",
+      "My software-development background in Flutter gives me a strong foundation in structured problem solving, reusable code, testing, and user-focused communication. Across ten end-to-end analytics projects, I have built reproducible ETL workflows, SQLite data models, exploratory analyses, KPI reports, customer segments, statistical tests, and interactive dashboards using synthetic data."
+    ]
+  },
+  "projects": {
+    "title": "Featured Data Analytics Projects",
+    "items": [
+      {
+        "name": "Sales Insight Workflow",
+        "date": "2026",
+        "description": [
+          "Built an end-to-end workflow across 4,200 validated sales line items, covering source-quality checks, relational joins, feature engineering, KPI reporting, and SQLite outputs.",
+          "Measured INR 81.05M in synthetic net revenue and a 32.9% margin, then translated category, regional, channel, and discount patterns into five business recommendations.",
+          "Tech: Python, pandas, SQL, SQLite, pytest, matplotlib, seaborn"
+        ],
+        "picture": "assets/projects/sales-insight-workflow.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/sales-insight-workflow",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Ecommerce Transactions EDA",
+        "date": "2026",
+        "description": [
+          "Cleaned and analyzed 6,000 synthetic transactions to assess revenue, returns, seasonality, shipping performance, and customer satisfaction.",
+          "Used chi-square, Kruskal-Wallis, Mann-Whitney U, and Spearman correlation to separate meaningful patterns from descriptive noise.",
+          "Found Electronics generated 42.9% of net revenue while Fashion carried the highest return burden at 20.4%."
+        ],
+        "picture": "assets/projects/ecommerce-transactions-eda.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/ecommerce-transactions-eda",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Purchase Behavior & RFM Segmentation",
+        "date": "2026",
+        "description": [
+          "Processed 6,500 synthetic orders and built an RFM scoring workflow across 2,200 customers using reusable Python modules and SQLite.",
+          "Calculated $1.05M revenue, $241 average order value, and a 52.3% repeat-purchase rate.",
+          "Identified Champions as the largest value segment, contributing about $652.9K from 215 customers."
+        ],
+        "picture": "assets/projects/purchase-behavior-analysis.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/purchase-behavior-analysis",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Subscription Churn Signals",
+        "date": "2026",
+        "description": [
+          "Analyzed retention signals across 2,200 synthetic subscribers and quantified $21.9K in monthly recurring revenue at risk.",
+          "Compared churn across contract, tenure, usage, and support-ticket segments using point-biserial correlation and bias-corrected Cramér's V.",
+          "Monthly contracts showed 28.8% churn versus 1.9% for two-year contracts, creating a clear retention hypothesis."
+        ],
+        "picture": "assets/projects/customer-churn-eda.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/customer-churn-eda",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Field Service Operations Analytics",
+        "date": "2026",
+        "description": [
+          "Designed a normalized SQLite warehouse and analytical views for 3,200 work orders, 48 technicians, six service categories, and five regions.",
+          "Measured SLA compliance, first-time fix rate, technician utilization, repeat visits, revenue, and gross margin.",
+          "Delivered six publication-ready charts and an interactive Streamlit dashboard for operational decision support."
+        ],
+        "picture": "assets/projects/field-service-operations.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/field-service-operations-analytics",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Student Performance Analytics",
+        "date": "2026",
+        "description": [
+          "Explored study habits, attendance, sleep, extracurricular participation, subject scores, and outcomes across 650 synthetic students.",
+          "Built a reproducible generation and analysis pipeline with an executed Jupyter notebook and five visual findings.",
+          "Found subject mastery and attendance were the strongest descriptive separators of final outcomes."
+        ],
+        "picture": "assets/projects/student-performance-analytics.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/student-performance-analytics",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Short-Term Rental Bookings Analytics",
+        "date": "2026",
+        "description": [
+          "Analyzed pricing, availability, reviews, minimum stays, outliers, and an occupancy proxy across 3,000 synthetic listings.",
+          "Applied transparent cleaning rules, retained flagged outliers, documented analytical caveats, and tested the reusable pipeline.",
+          "Showed how room type and neighbourhood shape price while avoiding unsupported causal claims."
+        ],
+        "picture": "assets/projects/rental-bookings-analysis.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/airbnb-bookings-analysis",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Music Track Insights",
+        "date": "2026",
+        "description": [
+          "Built a complete EDA workflow for 2,450 cleaned synthetic tracks across genre, release year, popularity, tempo, and audio-style features.",
+          "Compared distributions and correlations with careful non-causal interpretation.",
+          "Danceability had the strongest association with popularity in the generated catalog at approximately r = 0.47."
+        ],
+        "picture": "assets/projects/music-track-insights.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/music-track-insights",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Passenger Survival EDA",
+        "date": "2026",
+        "description": [
+          "Created and analyzed 1,000 fictional passenger records with controlled missingness and a reproducible cleaning workflow.",
+          "Used chi-square tests and point-biserial correlations to compare survival patterns across class, sex, age, and fare.",
+          "Documented the synthetic data-generating process so statistical findings are interpreted responsibly."
+        ],
+        "picture": "assets/projects/passenger-survival-eda.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/titanic-survival-eda",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Retail Sales Pipeline",
+        "date": "2026",
+        "description": [
+          "Built a portable CSV-to-SQLite ETL pipeline covering customer, product, and order data.",
+          "Implemented missing-price handling, revenue feature engineering, relational schema constraints, and reusable SQL analysis.",
+          "Presented product, country, category, customer, and monthly performance through a focused Jupyter notebook."
+        ],
+        "picture": "assets/projects/retail-sales-pipeline.png",
+        "links": [
+          {
+            "url": "https://github.com/sovaamahato/retail-sales-pipeline",
+            "title": "View Repository"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Professional Background",
+    "jobs": [
+      {
+        "company": "Independent Portfolio",
+        "role": "Applied Data Analytics Projects",
+        "date": "2026",
+        "responsibilities": [
+          "Completed ten reproducible analytics projects spanning retail, ecommerce, customer retention, operations, education, rentals, and music.",
+          "Built ETL pipelines, relational SQLite models, reusable SQL queries, statistical analyses, KPI reports, notebooks, tests, and dashboards.",
+          "Communicated findings with business context, limitations, and action-oriented recommendations."
+        ]
+      },
+      {
+        "company": "Thulo",
+        "role": "Flutter Developer",
+        "date": "Current",
+        "responsibilities": [
+          "Developing cross-platform mobile experiences with Flutter in a product-focused technology environment.",
+          "Applying structured debugging, reusable component design, and user-centered problem solving.",
+          "Extending this software-engineering foundation into reproducible data workflows and analytical products."
+        ]
+      },
+      {
+        "company": "Gaaubesi Logistics",
+        "role": "Flutter Developer",
+        "date": "Previous",
+        "responsibilities": [
+          "Contributed to mobile application development in a logistics-focused business environment.",
+          "Worked with product requirements and application data flows to support usable digital experiences."
+        ]
+      },
+      {
+        "company": "KIST",
+        "role": "Bachelor in Information Technology",
+        "date": "2021 - 2024",
+        "responsibilities": [
+          "Built a broad foundation in programming, databases, software development, and information systems.",
+          "Developed the technical base now applied to Python, SQL, data analysis, and business intelligence."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Data Analytics Skills",
+    "categories": [
+      {
+        "name": "Analysis & Programming",
+        "items": [
+          "Python",
+          "pandas and NumPy",
+          "Exploratory Data Analysis",
+          "Data Cleaning and Validation",
+          "Feature Engineering",
+          "Statistical Testing"
+        ]
+      },
+      {
+        "name": "SQL & Data Workflows",
+        "items": [
+          "SQL and SQLite",
+          "Relational Data Modeling",
+          "ETL Pipelines",
+          "KPI Development",
+          "RFM Segmentation",
+          "Data Quality Checks"
+        ]
+      },
+      {
+        "name": "Visualization & Communication",
+        "items": [
+          "matplotlib and seaborn",
+          "Streamlit and Plotly",
+          "Jupyter Notebooks",
+          "Dashboard Design",
+          "Business Storytelling",
+          "Git and GitHub"
+        ]
+      },
+      {
+        "name": "Software Background",
+        "items": [
+          "Flutter and Dart",
+          "Cross-Platform Development",
+          "Reusable Components",
+          "Testing and Debugging",
+          "User-Focused Product Thinking"
+        ]
+      }
+    ]
+  },
+  "github_projects": {
+    "title": "More Analytics Work on GitHub",
+    "mode": "feed",
+    "source_url": "assets/data/analytics-repos.json",
+    "max_repos": 10,
+    "excluded_repos": [
+      "sovaamahato.github.io"
+    ]
+  },
+  "footer": {
+    "show_social_links": true,
+    "show_built_with": true,
+    "built_with_text": "Built with vanilla JavaScript and hosted on GitHub Pages",
+    "tagline": "Open to data analyst opportunities and meaningful analytics collaborations."
+  }
+}
