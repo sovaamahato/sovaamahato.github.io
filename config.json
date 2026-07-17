@@ -359,7 +359,7 @@
   },
   "footer": {
     "show_social_links": true,
-    "show_built_with": true,
+    "show_built_with": false,
     "built_with_text": "Built with vanilla JavaScript and hosted on GitHub Pages",
     "availability_label": "Available for Data Analyst roles",
     "tagline": "Based in the United Kingdom and open to Data Analyst opportunities."

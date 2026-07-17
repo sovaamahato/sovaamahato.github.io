@@ -1194,10 +1194,16 @@ class FooterManager {
     }
 
     updateFooterBottom(footerConfig) {
-        // Update "built with" text
+        const footerBottom = document.querySelector('.footer-bottom');
         const builtWithElement = document.querySelector('.footer-built-with');
+        const showBuiltWith = footerConfig.show_built_with && footerConfig.built_with_text;
+
+        if (footerBottom) {
+            footerBottom.style.display = showBuiltWith ? '' : 'none';
+        }
+
         if (builtWithElement) {
-            if (footerConfig.show_built_with && footerConfig.built_with_text) {
+            if (showBuiltWith) {
                 builtWithElement.textContent = footerConfig.built_with_text;
                 builtWithElement.style.display = 'block';
             } else {
