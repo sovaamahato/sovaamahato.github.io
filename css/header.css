@@ -55,10 +55,64 @@ h1 {
 .tagline {
     font-size: clamp(1.125rem, 2.5vw, 1.5rem);
     color: var(--text-muted);
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
     font-weight: 500;
     max-width: 100%;
     overflow-wrap: anywhere;
+}
+
+.hero-email {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 44px;
+    max-width: 100%;
+    margin: 0 auto 1.5rem;
+    padding: 0.55rem 1rem;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-full);
+    box-shadow: 0 1px 4px rgba(15, 23, 42, 0.05);
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.35;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.hero-email svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    flex: 0 0 auto;
+    color: var(--primary-color);
+}
+
+.hero-email span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.hero-email:hover {
+    color: var(--primary-color);
+    background: var(--card-background);
+    border-color: var(--primary-color);
+    box-shadow: 0 5px 14px rgba(37, 99, 235, 0.12);
+    transform: translateY(-1px);
+}
+
+.hero-email:active {
+    transform: translateY(0);
+}
+
+.hero-email[hidden] {
+    display: none;
+}
+
+[data-theme="dark"] .hero-email {
+    background: rgba(30, 41, 59, 0.6);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Social Links - Pill Buttons */

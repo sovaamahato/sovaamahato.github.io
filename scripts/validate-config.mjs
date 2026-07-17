@@ -23,9 +23,14 @@ function checkAsset(path, value) {
 requireString('github_username', config.github_username);
 requireString('header.greeting', config.header?.greeting);
 requireString('header.tagline', config.header?.tagline);
+requireString('header.email', config.header?.email);
 requireString('site.seo.title', config.site?.seo?.title);
 requireString('site.seo.description', config.site?.seo?.description);
 requireString('site.seo.base_url', config.site?.seo?.base_url);
+
+if (config.header?.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(config.header.email)) {
+  errors.push('header.email must be a valid email address');
+}
 
 if (!Array.isArray(config.social_links) || config.social_links.length === 0) {
   errors.push('social_links must include at least one link');

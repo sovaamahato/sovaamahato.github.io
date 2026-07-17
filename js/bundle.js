@@ -744,9 +744,26 @@ class HeaderManager {
         // Update header text
         document.querySelector('h1').textContent = config.header.greeting;
         document.querySelector('.tagline').textContent = config.header.tagline;
+        this.updateEmail(config.header.email);
 
         // Update social links
         this.updateSocialLinks(config);
+    }
+
+    // Update the primary email contact from config
+    updateEmail(email) {
+        const emailLink = document.querySelector('.hero-email');
+        if (!emailLink) return;
+
+        if (!email) {
+            emailLink.hidden = true;
+            return;
+        }
+
+        emailLink.hidden = false;
+        emailLink.href = `mailto:${email}`;
+        emailLink.setAttribute('aria-label', `Email Sova at ${email}`);
+        emailLink.querySelector('span').textContent = email;
     }
 
     // Extract GitHub username from social links
