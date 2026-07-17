@@ -1,4 +1,4 @@
-# Sova Kushwaha — Data Analyst Portfolio
+# Sova Kushwaha | Data Analyst Portfolio
 
 Personal portfolio website for [Sova Kushwaha](https://github.com/sovakushwaha), built for GitHub Pages.
 
@@ -6,7 +6,7 @@ Sova is pursuing a Master's Degree in Information Technology with Data Analytics
 
 **Live site:** [https://sovakushwaha.github.io](https://sovakushwaha.github.io)
 
-**YouTube:** [SovaVerse — Data Science, AI & ML](https://www.youtube.com/@sovaVerse01)
+**YouTube:** [SovaVerse | Data Science, AI & ML](https://www.youtube.com/@sovaVerse01)
 
 **Instagram:** [@sovaverse](https://www.instagram.com/sovaverse/)
 

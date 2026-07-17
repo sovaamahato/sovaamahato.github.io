@@ -65,15 +65,15 @@
     "items": [
       {
         "question": "Why should you hire me for a Data Analyst role?",
-        "answer": "I combine practical analytics capability with software-engineering discipline. Across ten reproducible portfolio projects, I have used Python, pandas, NumPy, SQL, SQLite, ETL, data-quality checks, statistical testing, KPI design, segmentation, visualisation, and dashboards to turn data into clear, defensible recommendations. I am UK-based and ready to bring that structured approach to an entry-level Data Analyst opportunity."
+        "answer": "I combine practical analytics capability with software-engineering discipline. My portfolio demonstrates reproducible analytics work in Python and SQL: ETL and data-quality checks, statistical testing, KPI design, segmentation, visualisation, and dashboards that turn evidence into clear, defensible business insights. I am UK-based and ready to bring that structured approach to an entry-level Data Analyst opportunity."
       },
       {
         "question": "What makes me different from a typical fresh graduate?",
-        "answer": "Alongside my BIT degree and current Master's study in Information Technology with Data Analytics, I bring professional experience as a Flutter Developer at Gaaubesi Logistics and Thulo. That background taught me to work from requirements, debug systematically, write reusable code, test my work, use version control, and think about the person using the final product—not only the technology behind it."
+        "answer": "Alongside my BIT degree and current Master's study in Information Technology with Data Analytics, I bring professional experience as a Flutter Developer at Gaaubesi Logistics and Thulo. That background taught me to work from requirements, debug systematically, write reusable code, test my work, use version control, and think about the person using the final product, not only the technology behind it."
       },
       {
         "question": "How do I turn data into business value?",
-        "answer": "I start with the decision a stakeholder needs to make, then connect data quality, appropriate analysis, and meaningful KPIs to that decision. My projects cover sales and margin, retention, customer value, service operations, and other business questions. I communicate assumptions and limitations—including the use of synthetic data—so recommendations remain useful without overstating what the evidence proves."
+        "answer": "I start with the decision a stakeholder needs to make, then connect data quality, appropriate analysis, and meaningful KPIs to that decision. My projects cover sales and margin, retention, customer value, service operations, and other business questions. I communicate assumptions and limitations, including the use of synthetic data, so recommendations remain useful without overstating what the evidence proves."
       },
       {
         "question": "Can I work effectively with technical and non-technical teams?",
@@ -89,7 +89,7 @@
     "eyebrow": "YouTube Tutor · SovaVerse",
     "title": "Making Data Science, AI & ML easier to understand",
     "lead": "I believe technical knowledge becomes more valuable when it is shared clearly.",
-    "body": "Through SovaVerse, I explore Data Science, Artificial Intelligence, and Machine Learning in an approachable way—documenting my learning journey while helping others build confidence with complex ideas. I am especially passionate about practical and responsible AI: preparing reliable data, understanding how models work, and communicating what results do and do not mean.",
+    "body": "Through SovaVerse, I explore Data Science, Artificial Intelligence, and Machine Learning in an approachable way, documenting my learning journey while helping others build confidence with complex ideas. I am especially passionate about practical and responsible AI: preparing reliable data, understanding how models work, and communicating what results do and do not mean.",
     "topics": [
       "Data Science",
       "Artificial Intelligence",
