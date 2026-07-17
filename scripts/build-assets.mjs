@@ -26,6 +26,7 @@ const jsFiles = [
   'js/seo-manager.js',
   'js/theme-manager.js',
   'js/loading-manager.js',
+  'js/project-carousel.js',
   'js/section-manager.js',
   'js/header-manager.js',
   'js/github-projects-manager.js',

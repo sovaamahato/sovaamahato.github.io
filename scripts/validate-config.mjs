@@ -13,8 +13,30 @@ function isRemoteUrl(value) {
   return /^https?:\/\//i.test(value);
 }
 
+function isSafeAssetUrl(value) {
+  if (typeof value !== 'string' || value.trim() !== value || value === '') return false;
+
+  if (isRemoteUrl(value)) {
+    try {
+      const url = new URL(value);
+      return url.protocol === 'https:';
+    } catch {
+      return false;
+    }
+  }
+
+  return /^assets\/[A-Za-z0-9._/-]+$/.test(value)
+    && !value.split('/').includes('..')
+    && !value.includes('//');
+}
+
 function checkAsset(path, value) {
-  if (!value || isRemoteUrl(value)) return;
+  if (!value) return;
+  if (!isSafeAssetUrl(value)) {
+    errors.push(`${path} must be a safe HTTPS URL or an assets/ path`);
+    return;
+  }
+  if (isRemoteUrl(value)) return;
   if (!existsSync(value)) {
     errors.push(`${path} points to a missing asset: ${value}`);
   }
@@ -56,7 +78,32 @@ config.why_hire?.items?.forEach((item, index) => {
 
 config.projects?.items?.forEach((project, index) => {
   requireString(`projects.items[${index}].name`, project.name);
-  checkAsset(`projects.items[${index}].picture`, project.picture);
+  const projectPath = `projects.items[${index}]`;
+
+  if (project.images !== undefined) {
+    if (!Array.isArray(project.images) || project.images.length === 0) {
+      errors.push(`${projectPath}.images must be a non-empty array`);
+    } else {
+      project.images.forEach((image, imageIndex) => {
+        const imagePath = `${projectPath}.images[${imageIndex}]`;
+        if (!image || typeof image !== 'object' || Array.isArray(image)) {
+          errors.push(`${imagePath} must be an object`);
+          return;
+        }
+
+        requireString(`${imagePath}.src`, image.src);
+        requireString(`${imagePath}.alt`, image.alt);
+        if (image.caption !== undefined && typeof image.caption !== 'string') {
+          errors.push(`${imagePath}.caption must be a string when provided`);
+        }
+        checkAsset(`${imagePath}.src`, image.src);
+      });
+    }
+  } else if (project.picture) {
+    checkAsset(`${projectPath}.picture`, project.picture);
+  } else {
+    errors.push(`${projectPath} must include images or picture`);
+  }
 });
 
 config.experience?.jobs?.forEach((job, index) => {

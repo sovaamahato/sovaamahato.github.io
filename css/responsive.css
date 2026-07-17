@@ -85,7 +85,6 @@
     .project-item {
         flex-direction: column;
         text-align: center;
-        cursor: pointer;
         border-radius: var(--border-radius-xl);
     }
 
@@ -108,11 +107,30 @@
         text-align: left;
     }
 
-    .project-image {
+    .project-carousel {
         width: 100%;
-        min-height: unset;
-        aspect-ratio: 16/9;
         order: 2;
+        border-top: 1px solid var(--border-color);
+        border-left: 0;
+    }
+
+    .project-carousel-frame {
+        min-height: clamp(250px, 68vw, 420px);
+    }
+
+    .project-carousel-footer {
+        grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    .project-carousel-status {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: start;
+    }
+
+    .project-carousel-controls {
+        grid-column: 2;
+        grid-row: 1 / span 2;
     }
 
     .project-card {

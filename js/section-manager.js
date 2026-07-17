@@ -1,3 +1,5 @@
+import { ProjectCarousel } from './project-carousel.js';
+
 // Section Manager Module
 export class SectionManager {
     constructor(configManager) {
@@ -245,7 +247,6 @@ export class SectionManager {
         const date = project.date ? `<p class="date">${this.escapeHtml(project.date)}</p>` : '';
         const descriptionHtml = this.listItems(project.description || 'Project details coming soon.');
         const linksHtml = this.createProjectLinks(project);
-        const imageSrc = this.safeUrl(project.picture);
 
         projectItem.innerHTML = `
             <details class="project-details">
@@ -271,12 +272,16 @@ export class SectionManager {
                     ${linksHtml}
                 </div>
             </details>
-            ${imageSrc ? `
-            <div class="project-image">
-                <img src="${imageSrc}" alt="${name} project screenshot" loading="lazy">
-            </div>
-            ` : ''}
         `;
+
+        const carousel = new ProjectCarousel(project, {
+            safeUrl: value => this.safeUrl(value),
+            escapeHtml: value => this.escapeHtml(value)
+        }).render();
+
+        if (carousel) {
+            projectItem.appendChild(carousel);
+        }
 
         return projectItem;
     }

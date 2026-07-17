@@ -117,7 +117,28 @@
           "Measured INR 81.05M in synthetic net revenue and a 32.9% margin, then translated category, regional, channel, and discount patterns into five business recommendations.",
           "Tech: Python, pandas, SQL, SQLite, pytest, matplotlib, seaborn"
         ],
-        "picture": "assets/projects/sales-insight-workflow.png",
+        "images": [
+          {
+            "src": "assets/projects/sales-insight-workflow/monthly-net-revenue.png",
+            "alt": "Line chart of monthly net revenue for the sales insight workflow",
+            "caption": "Monthly net revenue"
+          },
+          {
+            "src": "assets/projects/sales-insight-workflow/category-profit.png",
+            "alt": "Bar chart comparing profit across product categories",
+            "caption": "Profit by category"
+          },
+          {
+            "src": "assets/projects/sales-insight-workflow/regional-revenue.png",
+            "alt": "Bar chart comparing net revenue across regions",
+            "caption": "Revenue by region"
+          },
+          {
+            "src": "assets/projects/sales-insight-workflow/discount-margin.png",
+            "alt": "Chart comparing discount bands with profit margin",
+            "caption": "Discount and margin"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/sales-insight-workflow",
@@ -133,7 +154,28 @@
           "Used chi-square, Kruskal-Wallis, Mann-Whitney U, and Spearman correlation to separate meaningful patterns from descriptive noise.",
           "Found Electronics generated 42.9% of net revenue while Fashion carried the highest return burden at 20.4%."
         ],
-        "picture": "assets/projects/ecommerce-transactions-eda.png",
+        "images": [
+          {
+            "src": "assets/projects/ecommerce-transactions-eda/revenue-by-category.png",
+            "alt": "Bar chart comparing ecommerce revenue by product category",
+            "caption": "Revenue by category"
+          },
+          {
+            "src": "assets/projects/ecommerce-transactions-eda/monthly-revenue.png",
+            "alt": "Line chart showing monthly ecommerce revenue",
+            "caption": "Monthly revenue"
+          },
+          {
+            "src": "assets/projects/ecommerce-transactions-eda/return-rate-by-category.png",
+            "alt": "Bar chart comparing return rates by ecommerce product category",
+            "caption": "Return rate by category"
+          },
+          {
+            "src": "assets/projects/ecommerce-transactions-eda/shipping-satisfaction.png",
+            "alt": "Chart comparing shipping performance with customer satisfaction",
+            "caption": "Shipping and satisfaction"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/ecommerce-transactions-eda",
@@ -149,7 +191,28 @@
           "Calculated $1.05M revenue, $241 average order value, and a 52.3% repeat-purchase rate.",
           "Identified Champions as the largest value segment, contributing about $652.9K from 215 customers."
         ],
-        "picture": "assets/projects/purchase-behavior-analysis.png",
+        "images": [
+          {
+            "src": "assets/projects/purchase-behavior-analysis/monthly-revenue.png",
+            "alt": "Line chart showing monthly purchase revenue",
+            "caption": "Monthly revenue"
+          },
+          {
+            "src": "assets/projects/purchase-behavior-analysis/revenue-by-category.png",
+            "alt": "Bar chart comparing purchase revenue by category",
+            "caption": "Revenue by category"
+          },
+          {
+            "src": "assets/projects/purchase-behavior-analysis/rfm-segment-counts.png",
+            "alt": "Bar chart comparing customer counts across RFM segments",
+            "caption": "Customers by RFM segment"
+          },
+          {
+            "src": "assets/projects/purchase-behavior-analysis/rfm-segment-revenue.png",
+            "alt": "Bar chart comparing revenue across RFM customer segments",
+            "caption": "Revenue by RFM segment"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/purchase-behavior-analysis",
@@ -165,7 +228,28 @@
           "Compared churn across contract, tenure, usage, and support-ticket segments using point-biserial correlation and bias-corrected Cramér's V.",
           "Monthly contracts showed 28.8% churn versus 1.9% for two-year contracts, creating a clear retention hypothesis."
         ],
-        "picture": "assets/projects/customer-churn-eda.png",
+        "images": [
+          {
+            "src": "assets/projects/customer-churn-eda/overall-churn.png",
+            "alt": "Chart showing the overall subscriber churn distribution",
+            "caption": "Overall churn"
+          },
+          {
+            "src": "assets/projects/customer-churn-eda/churn-by-contract.png",
+            "alt": "Bar chart comparing churn rates by contract type",
+            "caption": "Churn by contract"
+          },
+          {
+            "src": "assets/projects/customer-churn-eda/usage-tickets-churn.png",
+            "alt": "Charts comparing usage and support tickets with churn",
+            "caption": "Usage, support, and churn"
+          },
+          {
+            "src": "assets/projects/customer-churn-eda/categorical-associations.png",
+            "alt": "Chart of categorical feature associations with subscriber churn",
+            "caption": "Categorical churn associations"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/customer-churn-eda",
@@ -181,7 +265,28 @@
           "Measured SLA compliance, first-time fix rate, technician utilization, repeat visits, revenue, and gross margin.",
           "Delivered six publication-ready charts and an interactive Streamlit dashboard for operational decision support."
         ],
-        "picture": "assets/projects/field-service-operations.png",
+        "images": [
+          {
+            "src": "assets/projects/field-service-operations-analytics/sla-by-priority.png",
+            "alt": "Bar chart comparing SLA compliance by work order priority",
+            "caption": "SLA compliance by priority"
+          },
+          {
+            "src": "assets/projects/field-service-operations-analytics/margin-by-category.png",
+            "alt": "Bar chart comparing gross margin by field service category",
+            "caption": "Margin by service category"
+          },
+          {
+            "src": "assets/projects/field-service-operations-analytics/regional-sla.png",
+            "alt": "Bar chart comparing field service SLA compliance by region",
+            "caption": "Regional SLA compliance"
+          },
+          {
+            "src": "assets/projects/field-service-operations-analytics/monthly-margin.png",
+            "alt": "Line chart showing monthly field service gross margin",
+            "caption": "Monthly gross margin"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/field-service-operations-analytics",
@@ -197,7 +302,28 @@
           "Built a reproducible generation and analysis pipeline with an executed Jupyter notebook and five visual findings.",
           "Found subject mastery and attendance were the strongest descriptive separators of final outcomes."
         ],
-        "picture": "assets/projects/student-performance-analytics.png",
+        "images": [
+          {
+            "src": "assets/projects/student-performance-analytics/final-score-distribution.png",
+            "alt": "Histogram showing the distribution of student final scores",
+            "caption": "Final score distribution"
+          },
+          {
+            "src": "assets/projects/student-performance-analytics/study-hours-vs-final-score.png",
+            "alt": "Scatter plot comparing study hours with student final scores",
+            "caption": "Study hours and final scores"
+          },
+          {
+            "src": "assets/projects/student-performance-analytics/attendance-band-scores.png",
+            "alt": "Box plot comparing final scores across attendance bands",
+            "caption": "Scores by attendance band"
+          },
+          {
+            "src": "assets/projects/student-performance-analytics/subject-scores-extracurricular.png",
+            "alt": "Chart comparing subject scores by extracurricular participation",
+            "caption": "Subject scores and extracurriculars"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/student-performance-analytics",
@@ -213,7 +339,28 @@
           "Applied transparent cleaning rules, retained flagged outliers, documented analytical caveats, and tested the reusable pipeline.",
           "Showed how room type and neighbourhood shape price while avoiding unsupported causal claims."
         ],
-        "picture": "assets/projects/rental-bookings-analysis.png",
+        "images": [
+          {
+            "src": "assets/projects/airbnb-bookings-analysis/room-type-price.png",
+            "alt": "Box plot comparing rental listing prices by room type",
+            "caption": "Price by room type"
+          },
+          {
+            "src": "assets/projects/airbnb-bookings-analysis/neighbourhood-price.png",
+            "alt": "Chart comparing rental listing prices by neighbourhood",
+            "caption": "Price by neighbourhood"
+          },
+          {
+            "src": "assets/projects/airbnb-bookings-analysis/availability-occupancy-proxy.png",
+            "alt": "Chart comparing listing availability with an occupancy proxy",
+            "caption": "Availability and occupancy proxy"
+          },
+          {
+            "src": "assets/projects/airbnb-bookings-analysis/neighbourhood-occupancy-proxy.png",
+            "alt": "Chart comparing the occupancy proxy across neighbourhoods",
+            "caption": "Occupancy proxy by neighbourhood"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/airbnb-bookings-analysis",
@@ -229,7 +376,28 @@
           "Compared distributions and correlations with careful non-causal interpretation.",
           "Danceability had the strongest association with popularity in the generated catalog at approximately r = 0.47."
         ],
-        "picture": "assets/projects/music-track-insights.png",
+        "images": [
+          {
+            "src": "assets/projects/music-track-insights/genre-popularity.png",
+            "alt": "Box plot comparing track popularity across music genres",
+            "caption": "Popularity by genre"
+          },
+          {
+            "src": "assets/projects/music-track-insights/feature-correlations.png",
+            "alt": "Heatmap of correlations among music track audio features",
+            "caption": "Audio feature correlations"
+          },
+          {
+            "src": "assets/projects/music-track-insights/popularity-by-year.png",
+            "alt": "Line chart showing track popularity by release year",
+            "caption": "Popularity by release year"
+          },
+          {
+            "src": "assets/projects/music-track-insights/popularity-vs-audio-features.png",
+            "alt": "Scatter plots comparing popularity with multiple audio features",
+            "caption": "Popularity and audio features"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/music-track-insights",
@@ -245,7 +413,28 @@
           "Used chi-square tests and point-biserial correlations to compare survival patterns across class, sex, age, and fare.",
           "Documented the synthetic data-generating process so statistical findings are interpreted responsibly."
         ],
-        "picture": "assets/projects/passenger-survival-eda.png",
+        "images": [
+          {
+            "src": "assets/projects/titanic-survival-eda/survival-by-class.png",
+            "alt": "Bar chart comparing fictional passenger survival by travel class",
+            "caption": "Survival by class"
+          },
+          {
+            "src": "assets/projects/titanic-survival-eda/survival-by-sex.png",
+            "alt": "Bar chart comparing fictional passenger survival by sex",
+            "caption": "Survival by sex"
+          },
+          {
+            "src": "assets/projects/titanic-survival-eda/survival-by-age-group.png",
+            "alt": "Bar chart comparing fictional passenger survival by age group",
+            "caption": "Survival by age group"
+          },
+          {
+            "src": "assets/projects/titanic-survival-eda/survival-by-fare-band.png",
+            "alt": "Bar chart comparing fictional passenger survival by fare band",
+            "caption": "Survival by fare band"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/titanic-survival-eda",
@@ -261,7 +450,28 @@
           "Implemented missing-price handling, revenue feature engineering, relational schema constraints, and reusable SQL analysis.",
           "Presented product, country, category, customer, and monthly performance through a focused Jupyter notebook."
         ],
-        "picture": "assets/projects/retail-sales-pipeline.png",
+        "images": [
+          {
+            "src": "assets/projects/retail-sales-pipeline/monthly-revenue.png",
+            "alt": "Line chart showing monthly revenue from the retail sales pipeline",
+            "caption": "Monthly revenue"
+          },
+          {
+            "src": "assets/projects/retail-sales-pipeline/revenue-by-product.png",
+            "alt": "Bar chart comparing retail revenue by product",
+            "caption": "Revenue by product"
+          },
+          {
+            "src": "assets/projects/retail-sales-pipeline/revenue-by-country.png",
+            "alt": "Bar chart comparing retail revenue by country",
+            "caption": "Revenue by country"
+          },
+          {
+            "src": "assets/projects/retail-sales-pipeline/category-share.png",
+            "alt": "Chart showing retail revenue share by product category",
+            "caption": "Category revenue share"
+          }
+        ],
         "links": [
           {
             "url": "https://github.com/sovakushwaha/retail-sales-pipeline",

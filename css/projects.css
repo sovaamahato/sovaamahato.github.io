@@ -217,34 +217,157 @@
     margin-top: 2rem;
 }
 
-/* Project Image */
-.project-image {
-    width: 50%;
-    height: auto;
-    min-height: 300px;
-    overflow: hidden;
+/* Project chart carousel */
+.project-carousel {
+    width: 52%;
+    min-width: 0;
     flex-shrink: 0;
-    position: relative;
+    background: #f8fafc;
+    border-left: 1px solid var(--border-color);
+    outline: none;
+    touch-action: pan-y;
 }
 
-.project-image img {
-    width: 100%;
+.project-carousel:focus-visible {
+    box-shadow: inset 0 0 0 3px var(--primary-color);
+}
+
+.project-carousel-figure {
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
+    margin: 0;
 }
 
-.project-image::after {
-    content: '';
+.project-carousel-frame {
+    position: relative;
+    flex: 1;
+    min-height: 310px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.project-carousel-image {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), transparent);
-    pointer-events: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: clamp(0.5rem, 1.5vw, 1rem);
+    object-fit: contain;
+    object-position: center;
 }
 
-[data-theme="dark"] .project-image::after {
-    background: linear-gradient(to right, rgba(30, 41, 59, 0.1), transparent);
+.project-carousel-footer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 60px;
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
+    color: var(--text-muted);
+    background: var(--card-background);
+    border-top: 1px solid var(--border-color);
+}
+
+.project-carousel-caption {
+    overflow: hidden;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.project-carousel-status {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.project-carousel-counter {
+    min-width: 2.75rem;
+    color: var(--text-color);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    text-align: center;
+}
+
+.project-carousel-indicators {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.project-carousel-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--border-color);
+    border-radius: 50%;
+    transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.project-carousel-dot.is-active {
+    background: var(--primary-color);
+    transform: scale(1.35);
+}
+
+.project-carousel-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project-carousel-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    color: var(--text-color);
+    background: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-full);
+    cursor: pointer;
+    transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.project-carousel-button svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.project-carousel-button:hover {
+    color: var(--on-primary-color);
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.project-carousel-button:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.project-carousel-button:active {
+    background: var(--primary-color-dark);
+}
+
+[data-theme="dark"] .project-carousel,
+[data-theme="dark"] .project-carousel-frame {
+    background: #e5e7eb;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-carousel-dot,
+    .project-carousel-button {
+        transition: none;
+    }
 }
 
 /* Projects on GitHub Section */
