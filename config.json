@@ -15,7 +15,7 @@
       "description": "Data analyst portfolio featuring Python, SQL, statistical analysis, ETL pipelines, dashboards, and business-focused insights.",
       "keywords": "Sova Kushwaha, data analyst, data science, artificial intelligence, machine learning, YouTube tutor, Python, SQL, pandas, SQLite, data visualization, exploratory data analysis, business intelligence, portfolio",
       "author": "Sova Kushwaha",
-      "og_image": "https://sovaamahato.github.io/assets/profile/sova-kushwaha.png",
+      "og_image": "https://sovaamahato.github.io/assets/profile/sova-kushwaha.jpg",
       "og_image_alt": "Professional portrait of Sova Kushwaha",
       "twitter_card": "summary_large_image",
       "base_url": "https://sovaamahato.github.io"
@@ -24,7 +24,7 @@
   "header": {
     "greeting": "Sova Kushwaha",
     "tagline": "Data Analyst | Python, SQL & Business Insights",
-    "profile_image": "assets/profile/sova-kushwaha.png"
+    "profile_image": "assets/profile/sova-kushwaha.jpg"
   },
   "social_links": [
     {
