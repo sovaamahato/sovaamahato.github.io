@@ -485,16 +485,6 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Independent Portfolio",
-        "role": "Applied Data Analytics Projects",
-        "date": "2026",
-        "responsibilities": [
-          "Completed ten reproducible analytics projects spanning retail, ecommerce, customer retention, operations, education, rentals, and music.",
-          "Built ETL pipelines, relational SQLite models, reusable SQL queries, statistical analyses, KPI reports, notebooks, tests, and dashboards.",
-          "Communicated findings with business context, limitations, and action-oriented recommendations."
-        ]
-      },
-      {
         "company": "Thulo",
         "role": "Flutter Developer",
         "date": "Mar 2025 – Oct 2025 · 8 mos",
