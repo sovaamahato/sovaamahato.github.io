@@ -35,6 +35,20 @@ if (!Array.isArray(config.about?.paragraphs)) {
   errors.push('about.paragraphs must be an array');
 }
 
+if (config.features?.why_hire) {
+  requireString('why_hire.title', config.why_hire?.title);
+  requireString('why_hire.intro', config.why_hire?.intro);
+
+  if (!Array.isArray(config.why_hire?.items) || config.why_hire.items.length === 0) {
+    errors.push('why_hire.items must include at least one FAQ item when why_hire is enabled');
+  }
+}
+
+config.why_hire?.items?.forEach((item, index) => {
+  requireString(`why_hire.items[${index}].question`, item.question);
+  requireString(`why_hire.items[${index}].answer`, item.answer);
+});
+
 config.projects?.items?.forEach((project, index) => {
   requireString(`projects.items[${index}].name`, project.name);
   checkAsset(`projects.items[${index}].picture`, project.picture);

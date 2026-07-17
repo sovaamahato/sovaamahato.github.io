@@ -541,6 +541,187 @@ h1 {
     margin-bottom: 0;
 }
 
+/* css/why-hire.css */
+/* Recruiter-focused FAQ */
+.why-hire {
+    width: min(100%, 52rem);
+    margin: 0 auto 4rem;
+}
+
+.why-hire-heading {
+    max-width: 40rem;
+    margin: 0 auto 1.75rem;
+    text-align: center;
+}
+
+.why-hire-eyebrow {
+    margin-bottom: 0.45rem;
+    color: var(--primary-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.why-hire h2 {
+    margin-bottom: 0.65rem;
+    font-size: clamp(1.9rem, 4vw, 2.5rem);
+}
+
+.why-hire-intro {
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.why-hire-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.why-hire-item {
+    overflow: hidden;
+    background:
+        linear-gradient(135deg, rgba(37, 99, 235, 0.055), transparent 48%),
+        var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.why-hire-item[open] {
+    border-color: rgba(37, 99, 235, 0.42);
+    box-shadow: 0 12px 30px rgba(37, 99, 235, 0.11);
+}
+
+.why-hire-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 3.75rem;
+    padding: 1rem 1.15rem;
+    color: var(--text-color);
+    cursor: pointer;
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 650;
+    line-height: 1.4;
+    list-style: none;
+}
+
+.why-hire-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.why-hire-item summary:hover {
+    color: var(--primary-color-dark);
+}
+
+.why-hire-toggle {
+    position: relative;
+    width: 1.2rem;
+    height: 1.2rem;
+    flex: 0 0 1.2rem;
+    color: var(--primary-color);
+}
+
+.why-hire-toggle::before,
+.why-hire-toggle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.9rem;
+    height: 2px;
+    background: currentColor;
+    border-radius: var(--border-radius-full);
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease;
+}
+
+.why-hire-toggle::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.why-hire-item[open] .why-hire-toggle::after {
+    transform: translate(-50%, -50%) rotate(0);
+}
+
+.why-hire-answer {
+    padding: 0 1.15rem 1.2rem;
+}
+
+.why-hire-answer p {
+    padding-top: 1rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-color);
+    line-height: 1.75;
+}
+
+[data-theme="dark"] .why-hire-item {
+    background:
+        linear-gradient(135deg, rgba(96, 165, 250, 0.08), transparent 48%),
+        var(--card-background);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+}
+
+[data-theme="dark"] .why-hire-item[open] {
+    border-color: rgba(96, 165, 250, 0.48);
+}
+
+[data-theme="dark"] .why-hire-item summary:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+    .why-hire-item summary {
+        align-items: flex-start;
+        padding: 0.95rem 1rem;
+        font-size: 0.98rem;
+    }
+
+    .why-hire-toggle {
+        margin-top: 0.15rem;
+    }
+
+    .why-hire-answer {
+        padding: 0 1rem 1.05rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .why-hire-item,
+    .why-hire-toggle::before,
+    .why-hire-toggle::after {
+        transition: none;
+    }
+}
+
+@media print {
+    .why-hire {
+        width: 100%;
+    }
+
+    .why-hire-item {
+        border-color: #dddddd !important;
+        box-shadow: none !important;
+        break-inside: avoid;
+    }
+
+    .why-hire-toggle {
+        display: none !important;
+    }
+
+    .why-hire-item:not([open]) > .why-hire-answer {
+        display: block !important;
+    }
+
+    .why-hire-answer {
+        padding: 0 1rem 1rem !important;
+    }
+}
+
 /* css/passion.css */
 /* Data Science, AI & ML passion section */
 .passion-card {

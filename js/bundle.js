@@ -262,6 +262,7 @@ class SectionManager {
     updatePageContent(config) {
         const features = {
             about: true,
+            why_hire: true,
             passion: true,
             projects: true,
             experience: true,
@@ -273,6 +274,7 @@ class SectionManager {
         };
 
         this.toggleSection('about', features.about);
+        this.toggleSection('why-hire', features.why_hire);
         this.toggleSection('passion', features.passion);
         this.toggleSection('projects', features.projects);
         this.toggleSection('experience', features.experience);
@@ -283,6 +285,10 @@ class SectionManager {
 
         if (features.about) {
             this.updateAboutSection(config);
+        }
+
+        if (features.why_hire) {
+            this.updateWhyHireSection(config);
         }
 
         if (features.passion) {
@@ -324,6 +330,39 @@ class SectionManager {
         } else {
             aboutSection.innerHTML = '<p>Welcome to my portfolio.</p>';
         }
+    }
+
+    updateWhyHireSection(config) {
+        const section = document.querySelector('.why-hire');
+        const list = section?.querySelector('.why-hire-list');
+        const whyHire = config.why_hire;
+        if (!section || !list || !whyHire) return;
+
+        const title = section.querySelector('#why-hire-title');
+        const intro = section.querySelector('.why-hire-intro');
+        if (title) title.textContent = whyHire.title || '';
+        if (intro) intro.textContent = whyHire.intro || '';
+
+        list.replaceChildren();
+        const fragment = document.createDocumentFragment();
+
+        (whyHire.items || []).forEach((item, index) => {
+            const details = document.createElement('details');
+            details.className = 'why-hire-item';
+            details.open = index === 0;
+            details.innerHTML = `
+                <summary>
+                    <span>${this.escapeHtml(item.question || '')}</span>
+                    <span class="why-hire-toggle" aria-hidden="true"></span>
+                </summary>
+                <div class="why-hire-answer">
+                    <p>${this.escapeHtml(item.answer || '')}</p>
+                </div>
+            `;
+            fragment.appendChild(details);
+        });
+
+        list.appendChild(fragment);
     }
 
     updatePassionSection(config) {

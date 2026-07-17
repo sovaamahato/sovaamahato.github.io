@@ -1,6 +1,7 @@
 {
   "features": {
     "about": true,
+    "why_hire": true,
     "passion": true,
     "projects": true,
     "experience": true,
@@ -56,6 +57,32 @@
     "paragraphs": [
       "I am a BIT graduate currently pursuing a Master's Degree in Information Technology with Data Analytics at the University of the West of Scotland. I am transitioning into data analytics with a practical portfolio built around Python, SQL, statistical analysis, data visualization, and business storytelling. My work focuses on turning imperfect datasets into clear metrics, defensible insights, and recommendations that decision-makers can act on.",
       "My software-development background in Flutter gives me a strong foundation in structured problem solving, reusable code, testing, and user-focused communication. Across ten end-to-end analytics projects, I have built reproducible ETL workflows, SQLite data models, exploratory analyses, KPI reports, customer segments, statistical tests, and interactive dashboards using synthetic data."
+    ]
+  },
+  "why_hire": {
+    "title": "Why You Should Hire Me",
+    "intro": "Five evidence-based reasons I can add value as an early-career Data Analyst.",
+    "items": [
+      {
+        "question": "Why should you hire me for a Data Analyst role?",
+        "answer": "I combine practical analytics capability with software-engineering discipline. Across ten reproducible portfolio projects, I have used Python, pandas, NumPy, SQL, SQLite, ETL, data-quality checks, statistical testing, KPI design, segmentation, visualisation, and dashboards to turn data into clear, defensible recommendations. I am UK-based and ready to bring that structured approach to an entry-level Data Analyst opportunity."
+      },
+      {
+        "question": "What makes me different from a typical fresh graduate?",
+        "answer": "Alongside my BIT degree and current Master's study in Information Technology with Data Analytics, I bring professional experience as a Flutter Developer at Gaaubesi Logistics and Thulo. That background taught me to work from requirements, debug systematically, write reusable code, test my work, use version control, and think about the person using the final product—not only the technology behind it."
+      },
+      {
+        "question": "How do I turn data into business value?",
+        "answer": "I start with the decision a stakeholder needs to make, then connect data quality, appropriate analysis, and meaningful KPIs to that decision. My projects cover sales and margin, retention, customer value, service operations, and other business questions. I communicate assumptions and limitations—including the use of synthetic data—so recommendations remain useful without overstating what the evidence proves."
+      },
+      {
+        "question": "Can I work effectively with technical and non-technical teams?",
+        "answer": "Yes. My development experience helps me collaborate on technical requirements and data workflows, while SovaVerse strengthens my ability to explain Data Science, AI, and Machine Learning concepts in approachable language. I focus on clear questions, concise visuals, documented logic, and plain-English findings so both technical colleagues and business stakeholders can follow and challenge the work."
+      },
+      {
+        "question": "How quickly can I learn and contribute?",
+        "answer": "My move from mobile development into analytics demonstrates that I can transfer skills and build new capability deliberately. I have progressed from programming and databases in my BIT to ten tested analytics projects and current postgraduate study, while documenting what I learn. I contribute reliably by breaking unfamiliar problems into manageable steps, validating outputs, seeking context early, and improving through feedback."
+      }
     ]
   },
   "passion": {
