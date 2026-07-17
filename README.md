@@ -1,10 +1,10 @@
 # Sova Kushwaha — Data Analyst Portfolio
 
-Personal portfolio website for [Sova Kushwaha](https://github.com/sovaamahato), built for GitHub Pages.
+Personal portfolio website for [Sova Kushwaha](https://github.com/sovakushwaha), built for GitHub Pages.
 
 Sova is pursuing a Master's Degree in Information Technology with Data Analytics at the University of the West of Scotland.
 
-**Live site:** [https://sovaamahato.github.io](https://sovaamahato.github.io)
+**Live site:** [https://sovakushwaha.github.io](https://sovakushwaha.github.io)
 
 **YouTube:** [SovaVerse — Data Science, AI & ML](https://www.youtube.com/@sovaVerse01)
 
@@ -26,12 +26,12 @@ All portfolio datasets are synthetic and clearly disclosed in their respective r
 
 ## Featured work
 
-- [Sales Insight Workflow](https://github.com/sovaamahato/sales-insight-workflow)
-- [Ecommerce Transactions EDA](https://github.com/sovaamahato/ecommerce-transactions-eda)
-- [Purchase Behavior & RFM Segmentation](https://github.com/sovaamahato/purchase-behavior-analysis)
-- [Customer Churn EDA](https://github.com/sovaamahato/customer-churn-eda)
-- [Field Service Operations Analytics](https://github.com/sovaamahato/field-service-operations-analytics)
-- [Student Performance Analytics](https://github.com/sovaamahato/student-performance-analytics)
+- [Sales Insight Workflow](https://github.com/sovakushwaha/sales-insight-workflow)
+- [Ecommerce Transactions EDA](https://github.com/sovakushwaha/ecommerce-transactions-eda)
+- [Purchase Behavior & RFM Segmentation](https://github.com/sovakushwaha/purchase-behavior-analysis)
+- [Customer Churn EDA](https://github.com/sovakushwaha/customer-churn-eda)
+- [Field Service Operations Analytics](https://github.com/sovakushwaha/field-service-operations-analytics)
+- [Student Performance Analytics](https://github.com/sovakushwaha/student-performance-analytics)
 
 ## Local preview
 

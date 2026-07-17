@@ -16,10 +16,10 @@
       "description": "Data analyst portfolio featuring Python, SQL, statistical analysis, ETL pipelines, dashboards, and business-focused insights.",
       "keywords": "Sova Kushwaha, data analyst, data science, artificial intelligence, machine learning, YouTube tutor, Python, SQL, pandas, SQLite, data visualization, exploratory data analysis, business intelligence, portfolio",
       "author": "Sova Kushwaha",
-      "og_image": "https://sovaamahato.github.io/assets/profile/sova-kushwaha.jpg",
+      "og_image": "https://sovakushwaha.github.io/assets/profile/sova-kushwaha.jpg",
       "og_image_alt": "Professional portrait of Sova Kushwaha",
       "twitter_card": "summary_large_image",
-      "base_url": "https://sovaamahato.github.io"
+      "base_url": "https://sovakushwaha.github.io"
     }
   },
   "header": {
@@ -30,7 +30,7 @@
   "social_links": [
     {
       "name": "GitHub",
-      "url": "https://github.com/sovaamahato",
+      "url": "https://github.com/sovakushwaha",
       "icon": "github",
       "required": true
     },
@@ -50,7 +50,7 @@
       "icon": "instagram"
     }
   ],
-  "github_username": "sovaamahato",
+  "github_username": "sovakushwaha",
   "about": {
     "paragraphs": [
       "I am a BIT graduate currently pursuing a Master's Degree in Information Technology with Data Analytics at the University of the West of Scotland. I am transitioning into data analytics with a practical portfolio built around Python, SQL, statistical analysis, data visualization, and business storytelling. My work focuses on turning imperfect datasets into clear metrics, defensible insights, and recommendations that decision-makers can act on.",
@@ -91,7 +91,7 @@
         "picture": "assets/projects/sales-insight-workflow.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/sales-insight-workflow",
+            "url": "https://github.com/sovakushwaha/sales-insight-workflow",
             "title": "View Repository"
           }
         ]
@@ -107,7 +107,7 @@
         "picture": "assets/projects/ecommerce-transactions-eda.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/ecommerce-transactions-eda",
+            "url": "https://github.com/sovakushwaha/ecommerce-transactions-eda",
             "title": "View Repository"
           }
         ]
@@ -123,7 +123,7 @@
         "picture": "assets/projects/purchase-behavior-analysis.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/purchase-behavior-analysis",
+            "url": "https://github.com/sovakushwaha/purchase-behavior-analysis",
             "title": "View Repository"
           }
         ]
@@ -139,7 +139,7 @@
         "picture": "assets/projects/customer-churn-eda.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/customer-churn-eda",
+            "url": "https://github.com/sovakushwaha/customer-churn-eda",
             "title": "View Repository"
           }
         ]
@@ -155,7 +155,7 @@
         "picture": "assets/projects/field-service-operations.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/field-service-operations-analytics",
+            "url": "https://github.com/sovakushwaha/field-service-operations-analytics",
             "title": "View Repository"
           }
         ]
@@ -171,7 +171,7 @@
         "picture": "assets/projects/student-performance-analytics.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/student-performance-analytics",
+            "url": "https://github.com/sovakushwaha/student-performance-analytics",
             "title": "View Repository"
           }
         ]
@@ -187,7 +187,7 @@
         "picture": "assets/projects/rental-bookings-analysis.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/airbnb-bookings-analysis",
+            "url": "https://github.com/sovakushwaha/airbnb-bookings-analysis",
             "title": "View Repository"
           }
         ]
@@ -203,7 +203,7 @@
         "picture": "assets/projects/music-track-insights.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/music-track-insights",
+            "url": "https://github.com/sovakushwaha/music-track-insights",
             "title": "View Repository"
           }
         ]
@@ -219,7 +219,7 @@
         "picture": "assets/projects/passenger-survival-eda.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/titanic-survival-eda",
+            "url": "https://github.com/sovakushwaha/titanic-survival-eda",
             "title": "View Repository"
           }
         ]
@@ -235,7 +235,7 @@
         "picture": "assets/projects/retail-sales-pipeline.png",
         "links": [
           {
-            "url": "https://github.com/sovaamahato/retail-sales-pipeline",
+            "url": "https://github.com/sovakushwaha/retail-sales-pipeline",
             "title": "View Repository"
           }
         ]
@@ -354,7 +354,7 @@
     "source_url": "assets/data/analytics-repos.json",
     "max_repos": 10,
     "excluded_repos": [
-      "sovaamahato.github.io"
+      "sovakushwaha.github.io"
     ]
   },
   "footer": {
