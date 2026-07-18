@@ -1,5 +1,25 @@
 [
   {
+    "name": "healthcare-visitor-analytics-powerbi",
+    "description": "Power BI healthcare visitor analytics with Power Query, DAX KPIs, wait-time analysis, and interactive operational dashboards.",
+    "html_url": "https://github.com/sovakushwaha/healthcare-visitor-analytics-powerbi",
+    "language": "Power BI",
+    "topics": ["powerbi", "dax", "healthcare-analytics"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-18"
+  },
+  {
+    "name": "grocery-sales-performance-powerbi",
+    "description": "Power BI grocery sales dashboard covering outlet-tier performance, category revenue leaders, and DAX sales KPIs.",
+    "html_url": "https://github.com/sovakushwaha/grocery-sales-performance-powerbi",
+    "language": "Power BI",
+    "topics": ["powerbi", "sales-dashboard", "dax"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-18"
+  },
+  {
     "name": "sales-insight-workflow",
     "description": "End-to-end synthetic sales analytics workflow with validated data, SQL, KPIs, charts, tests, and business recommendations.",
     "html_url": "https://github.com/sovakushwaha/sales-insight-workflow",

@@ -12,20 +12,21 @@ Sova is pursuing a Master's Degree in Information Technology with Data Analytics
 
 ## Focus
 
-The portfolio presents ten applied analytics projects covering:
+The portfolio presents applied analytics and Power BI projects covering:
 
 - Python, pandas, and NumPy
 - SQL, SQLite, and relational data modeling
+- Power BI, Power Query, and DAX dashboards
 - ETL pipelines and data-quality validation
 - Exploratory analysis and statistical testing
 - Customer segmentation, churn, sales, and operational KPIs
 - matplotlib, seaborn, Plotly, Streamlit, and Jupyter
 - Business-focused interpretation and recommendations
 
-All portfolio datasets are synthetic and clearly disclosed in their respective repositories.
-
 ## Featured work
 
+- [Healthcare Visitor Analytics (Power BI)](https://github.com/sovakushwaha/healthcare-visitor-analytics-powerbi)
+- [Grocery Sales Performance (Power BI)](https://github.com/sovakushwaha/grocery-sales-performance-powerbi)
 - [Sales Insight Workflow](https://github.com/sovakushwaha/sales-insight-workflow)
 - [Ecommerce Transactions EDA](https://github.com/sovakushwaha/ecommerce-transactions-eda)
 - [Purchase Behavior & RFM Segmentation](https://github.com/sovakushwaha/purchase-behavior-analysis)

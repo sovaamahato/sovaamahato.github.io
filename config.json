@@ -16,7 +16,7 @@
     "seo": {
       "title": "Sova Kushwaha | Data Analyst Portfolio",
       "description": "Data analyst portfolio featuring Python, SQL, statistical analysis, ETL pipelines, dashboards, and business-focused insights.",
-      "keywords": "Sova Kushwaha, data analyst, data science, artificial intelligence, machine learning, YouTube tutor, Python, SQL, pandas, SQLite, data visualization, exploratory data analysis, business intelligence, portfolio",
+      "keywords": "Sova Kushwaha, data analyst, Power BI, DAX, data science, artificial intelligence, machine learning, YouTube tutor, Python, SQL, pandas, SQLite, data visualization, exploratory data analysis, business intelligence, portfolio",
       "author": "Sova Kushwaha",
       "og_image": "https://sovakushwaha.github.io/assets/profile/sova-kushwaha.jpg",
       "og_image_alt": "Professional portrait of Sova Kushwaha",
@@ -109,6 +109,70 @@
   "projects": {
     "title": "Featured Data Analytics Projects",
     "items": [
+      {
+        "name": "Healthcare Visitor Analytics (Power BI)",
+        "date": "2026",
+        "description": [
+          "Built an interactive Power BI dashboard for hospital visitor operations, covering visit timing, wait times, demographics, department referrals, and satisfaction.",
+          "Used Power Query for cleaning and shaping, data modeling for relationships, and DAX measures for KPI reporting across seasonal and weekday demand patterns.",
+          "Tech: Power BI, Power Query, DAX, Excel"
+        ],
+        "images": [
+          {
+            "src": "assets/projects/healthcare-visitor-analytics-powerbi/overview.png",
+            "alt": "Healthcare visitor analytics Power BI dashboard overview",
+            "caption": "Dashboard overview"
+          },
+          {
+            "src": "assets/projects/healthcare-visitor-analytics-powerbi/insights.png",
+            "alt": "Healthcare visitor analytics Power BI insights page",
+            "caption": "Wait time and demographic insights"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://github.com/sovakushwaha/healthcare-visitor-analytics-powerbi",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Grocery Sales Performance (Power BI)",
+        "date": "2026",
+        "description": [
+          "Designed a Power BI sales dashboard for grocery and quick-commerce outlet performance across location tiers and product categories.",
+          "Highlighted Tier 3 outlets as the top revenue group at about $472.1K and Fruits & Vegetables plus Snack Foods as leading categories near $0.18M each.",
+          "Tech: Power BI, Power Query, DAX, Excel"
+        ],
+        "images": [
+          {
+            "src": "assets/projects/grocery-sales-performance-powerbi/overview.png",
+            "alt": "Grocery sales performance Power BI dashboard overview",
+            "caption": "Sales overview"
+          },
+          {
+            "src": "assets/projects/grocery-sales-performance-powerbi/tier3.png",
+            "alt": "Tier 3 outlet sales performance in Power BI",
+            "caption": "Tier 3 outlet performance"
+          },
+          {
+            "src": "assets/projects/grocery-sales-performance-powerbi/fruits-vegetables.png",
+            "alt": "Fruits and vegetables category revenue in Power BI",
+            "caption": "Fruits and vegetables"
+          },
+          {
+            "src": "assets/projects/grocery-sales-performance-powerbi/snack-foods.png",
+            "alt": "Snack foods category revenue in Power BI",
+            "caption": "Snack foods"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://github.com/sovakushwaha/grocery-sales-performance-powerbi",
+            "title": "View Repository"
+          }
+        ]
+      },
       {
         "name": "Sales Insight Workflow",
         "date": "2026",
@@ -557,6 +621,7 @@
       {
         "name": "Visualization & Communication",
         "items": [
+          "Power BI, Power Query, and DAX",
           "matplotlib and seaborn",
           "Streamlit and Plotly",
           "Jupyter Notebooks",
@@ -588,7 +653,7 @@
     "title": "More Analytics Work on GitHub",
     "mode": "feed",
     "source_url": "assets/data/analytics-repos.json",
-    "max_repos": 10,
+    "max_repos": 12,
     "excluded_repos": [
       "sovakushwaha.github.io"
     ]
