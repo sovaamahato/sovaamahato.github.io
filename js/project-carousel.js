@@ -1,3 +1,5 @@
+import { getProjectLightbox } from './project-lightbox.js';
+
 // Accessible chart carousel used by featured project cards.
 export class ProjectCarousel {
     constructor(project, helpers = {}) {
@@ -64,6 +66,13 @@ export class ProjectCarousel {
         this.image.className = 'project-carousel-image';
         this.image.loading = 'lazy';
         this.image.decoding = 'async';
+        this.image.setAttribute('role', 'button');
+        this.image.tabIndex = 0;
+        this.image.setAttribute(
+            'aria-label',
+            `Open larger view of ${this.projectName} charts`
+        );
+        this.image.title = 'Click to enlarge';
         frame.appendChild(this.image);
 
         const footer = document.createElement('figcaption');
@@ -114,9 +123,30 @@ export class ProjectCarousel {
             this.pointerStart = null;
         });
 
+        this.image.addEventListener('click', event => {
+            event.preventDefault();
+            event.stopPropagation();
+            this.openLightbox();
+        });
+
+        this.image.addEventListener('keydown', event => {
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+            event.preventDefault();
+            event.stopPropagation();
+            this.openLightbox();
+        });
+
         this.root = root;
         this.update();
         return root;
+    }
+
+    openLightbox() {
+        getProjectLightbox().open({
+            images: this.images,
+            index: this.index,
+            projectName: this.projectName
+        });
     }
 
     createButton(direction, delta) {
@@ -136,6 +166,7 @@ export class ProjectCarousel {
     }
 
     handleKeydown(event) {
+        if (event.target === this.image) return;
         if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
         event.preventDefault();
         event.stopPropagation();
@@ -144,6 +175,7 @@ export class ProjectCarousel {
 
     handlePointerDown(event) {
         if (!event.isPrimary || event.pointerType === 'mouse') return;
+        if (event.target?.closest?.('.project-carousel-button')) return;
         this.pointerStart = { x: event.clientX, y: event.clientY };
     }
 

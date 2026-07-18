@@ -262,6 +262,37 @@
             </p>
         </div>
     </dialog>
+
+    <dialog class="project-lightbox" aria-labelledby="project-lightbox-title">
+        <div class="project-lightbox-shell">
+            <div class="project-lightbox-header">
+                <div class="project-lightbox-heading">
+                    <p class="project-lightbox-eyebrow">Chart preview</p>
+                    <h2 id="project-lightbox-title">Project charts</h2>
+                </div>
+                <button class="project-lightbox-close" type="button" aria-label="Close chart preview">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                        <path d="m18 6-12 12"></path>
+                        <path d="m6 6 12 12"></path>
+                    </svg>
+                    <span>Close</span>
+                </button>
+            </div>
+            <div class="project-lightbox-stage" tabindex="0">
+                <button class="project-lightbox-nav project-lightbox-prev" type="button" aria-label="Previous chart">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+                </button>
+                <img class="project-lightbox-image" alt="" decoding="async">
+                <button class="project-lightbox-nav project-lightbox-next" type="button" aria-label="Next chart">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+                </button>
+            </div>
+            <div class="project-lightbox-footer">
+                <p class="project-lightbox-caption"></p>
+                <span class="project-lightbox-counter" aria-live="polite"></span>
+            </div>
+        </div>
+    </dialog>
     
     <!-- Footer -->
     <footer class="footer">
