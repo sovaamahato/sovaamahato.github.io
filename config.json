@@ -111,6 +111,75 @@
     "title": "Power BI Dashboards",
     "items": [
       {
+        "name": "HR Employee Analytics (Power BI)",
+        "date": "2026",
+        "description": [
+          "Built an interactive Power BI HR dashboard for hiring trends, attrition, salary-group distribution, and overtime patterns.",
+          "Used relationship-based modeling, DAX KPIs, and bookmark-driven slicers for gender, department, state, travel, and salary filters.",
+          "Tech: Power BI, Power Query, DAX, data modeling"
+        ],
+        "images": [
+          {
+            "src": "assets/projects/hr-employee-analytics-powerbi/overview.png",
+            "alt": "HR employee analytics Power BI dashboard overview",
+            "caption": "HR overview"
+          },
+          {
+            "src": "assets/projects/hr-employee-analytics-powerbi/slicers.png",
+            "alt": "Interactive HR slicer panel in Power BI",
+            "caption": "Interactive slicers"
+          },
+          {
+            "src": "assets/projects/hr-employee-analytics-powerbi/data-model.png",
+            "alt": "Power BI data model relationships for HR analytics",
+            "caption": "Data model"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://github.com/sovakushwaha/hr-employee-analytics-powerbi",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
+        "name": "Finance KPI Dashboard (Power BI)",
+        "date": "2026",
+        "description": [
+          "Designed a Power BI finance dashboard for revenue, profit, COGS, product performance, and country/segment contribution.",
+          "Built KPI cards and comparison visuals so stakeholders can monitor profitability and compare products, countries, and segments quickly.",
+          "Tech: Power BI, Power Query, DAX, Excel"
+        ],
+        "images": [
+          {
+            "src": "assets/projects/finance-kpi-dashboard-powerbi/overview.png",
+            "alt": "Finance KPI Power BI dashboard overview",
+            "caption": "Finance overview"
+          },
+          {
+            "src": "assets/projects/finance-kpi-dashboard-powerbi/revenue-profit.png",
+            "alt": "Revenue and profit analysis in Power BI",
+            "caption": "Revenue and profit"
+          },
+          {
+            "src": "assets/projects/finance-kpi-dashboard-powerbi/product-performance.png",
+            "alt": "Product performance finance dashboard view",
+            "caption": "Product performance"
+          },
+          {
+            "src": "assets/projects/finance-kpi-dashboard-powerbi/segment-country.png",
+            "alt": "Segment and country finance comparison in Power BI",
+            "caption": "Segment and country"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://github.com/sovakushwaha/finance-kpi-dashboard-powerbi",
+            "title": "View Repository"
+          }
+        ]
+      },
+      {
         "name": "Healthcare Visitor Analytics (Power BI)",
         "date": "2026",
         "description": [
@@ -659,7 +728,7 @@
     "title": "More Analytics Work on GitHub",
     "mode": "feed",
     "source_url": "assets/data/analytics-repos.json",
-    "max_repos": 12,
+    "max_repos": 14,
     "excluded_repos": [
       "sovakushwaha.github.io"
     ]

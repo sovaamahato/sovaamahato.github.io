@@ -1,5 +1,25 @@
 [
   {
+    "name": "hr-employee-analytics-powerbi",
+    "description": "Power BI HR analytics dashboard for hiring trends, attrition, salary groups, overtime, and interactive workforce slicers.",
+    "html_url": "https://github.com/sovakushwaha/hr-employee-analytics-powerbi",
+    "language": "Power BI",
+    "topics": ["powerbi", "hr-analytics", "dax"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-24"
+  },
+  {
+    "name": "finance-kpi-dashboard-powerbi",
+    "description": "Power BI finance KPI dashboard covering revenue, profit, COGS, product performance, and country/segment comparisons.",
+    "html_url": "https://github.com/sovakushwaha/finance-kpi-dashboard-powerbi",
+    "language": "Power BI",
+    "topics": ["powerbi", "finance", "dax"],
+    "stars": 0,
+    "forks": 0,
+    "updated_at": "2026-07-24"
+  },
+  {
     "name": "healthcare-visitor-analytics-powerbi",
     "description": "Power BI healthcare visitor analytics with Power Query, DAX KPIs, wait-time analysis, and interactive operational dashboards.",
     "html_url": "https://github.com/sovakushwaha/healthcare-visitor-analytics-powerbi",

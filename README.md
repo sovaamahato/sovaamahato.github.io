@@ -25,6 +25,8 @@ The portfolio presents applied analytics and Power BI projects covering:
 
 ## Featured work
 
+- [HR Employee Analytics (Power BI)](https://github.com/sovakushwaha/hr-employee-analytics-powerbi)
+- [Finance KPI Dashboard (Power BI)](https://github.com/sovakushwaha/finance-kpi-dashboard-powerbi)
 - [Healthcare Visitor Analytics (Power BI)](https://github.com/sovakushwaha/healthcare-visitor-analytics-powerbi)
 - [Grocery Sales Performance (Power BI)](https://github.com/sovakushwaha/grocery-sales-performance-powerbi)
 - [Sales Insight Workflow](https://github.com/sovakushwaha/sales-insight-workflow)
